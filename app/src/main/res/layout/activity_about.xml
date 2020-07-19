@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="298dp"
+        android:layout_height="361dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="109dp"
+        android:text="Internet of Things (IoT) technology has brought revolution to each and every field of common man’s life by making everything smart and intelligent. IoT refers to a network of things which make a self-configuring network. The AUTOMATIC INDUSTRIAL MONITORING SYSTEM IoT based devices are day by day turning the face of industrial production by not only enhancing it but also making it cost-effective and reducing risk, fatal accidents and malfunctions. The aim of this project is to ensure the full automation of the production facility and gain its control and overall monitoring from any part of the world. With the help of this smartphone application we can easily get the updates and condition of the facility along with the status of different machineries which have been connected with this software and the system. The automation readily reduces the flaws and errors in monitoring the devices."
+        android:textAlignment="center"
+        android:textColor="#4A4747"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:text="About This App"
+        android:textAlignment="center"
+        android:textColor="#420842"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="474dp"
+        android:textAlignment="center"
+        android:textColor="#316A31"
+        android:textStyle="bold"
+        android:text="Powered By Innovative Soft" />
+
+</RelativeLayout>
